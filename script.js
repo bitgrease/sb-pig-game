@@ -1,6 +1,5 @@
 'use strict';
 
-let btnNew = document.querySelector('btn--new');
 // Selecting elements
 const score0El = document.querySelector('#score--0');
 // getElementByID is supposed to be slightly faster.
