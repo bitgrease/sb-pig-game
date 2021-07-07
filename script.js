@@ -39,7 +39,7 @@ const switchPlayer = function() {
 btnRoll.addEventListener('click', function() {
   const dice = generateDiceResult();
   diceEl.classList.remove('hidden');
-  diceEl.src = `dice-${dice}.png`;
+  diceEl.src = `/dice-${dice}.png`;
 
   if (dice !== 1) {
     currentScore += dice;
